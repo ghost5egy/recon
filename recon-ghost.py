@@ -1,5 +1,5 @@
-import requests,json,socket
-domain = "ideasqr.com"
+import requests,json,socket, sys
+domain = sys.argv[1]
 resp = requests.get('https://crt.sh/?q={}&output=json'.format(domain))
 subdomains = []
 for sub in resp.json():
