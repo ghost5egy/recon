@@ -1,2 +1,8 @@
 # recon
-get subdomains and ips then identify live ones then pass it to nuclei 
+get subdomains by crt.sh and subfinder
+get subdomains ip s 
+scan all ports 
+check the ports that has http protocol
+
+soon :
+pass ip s to nuclei
