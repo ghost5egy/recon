@@ -8,4 +8,7 @@ scan all ports
 check the ports that has http protocol
 
 soon :
-pass ip s to nuclei
+
+take screenshots with eyewitness
+
+pass subdomains to nuclei
